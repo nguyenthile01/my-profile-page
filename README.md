@@ -244,13 +244,13 @@ npm run build
 The easiest way to deploy this Next.js app is to use the
 [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Freactjs18-3d-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nguyenthile01/my-profile-page.git)
 
 #### Deploy on Netlify
 
 You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
 
-<!-- [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/reactjs18-3d-portfolio) -->
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/nguyenthile01/my-profile-page.git)
 
 Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
