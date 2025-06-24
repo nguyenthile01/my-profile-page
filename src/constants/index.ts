@@ -13,7 +13,6 @@ import {
   javascript,
   typescript,
   html,
-  css,
   reactjs,
   tailwind,
   git,
@@ -28,6 +27,7 @@ import {
   materialproject,
   qualityproject,
   next,
+  Azure
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -78,10 +78,6 @@ const technologies: TTechnology[] = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -114,6 +110,10 @@ const technologies: TTechnology[] = [
     icon: threejs,
   },
   {
+    name: "Azure",
+    icon: Azure
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -135,11 +135,10 @@ const experiences: TExperience[] = [
     iconBg: "#C9CCD7",
     date: "May 2021 - Present",
     points: [
-      "Built several B2B websites using Angular, HTML, SCSS, Styled Components, and OAuth2, improving development speed by 30% and enhancing user experience for over 1,000 active business users.",
-      "Built RESTful APIs using Java Spring Boot, JWT Authentication, improving system performance and scalability while ensuring secure and maintainable code.",
-      "Developed unit and integration tests using Jest, achieving over 90% code coverage across key components which improved code reliability, enabled faster refactoring, and reduced regression bugs.",
-      "Implemented and enforced code linting using ESLint in projects, reducing code quality issues by 40% and decreasing code review time by 25%. This improved team productivity and ensured consistent coding standards across the codebase.",
-      "Used Azure DevOps/Jira to manage tasks, track progress, and coordinate sprints in Agile development environments, improving team collaboration and delivery efficiency."
+      "Delivered multiple B2B apps using Angular & Spring Boot; improved system performance and security with REST APIs and JWT.",
+      "Reduced bugs by 35% and increased coverage to 90%+ using Jest & Playwright.",
+      "Mentored junior developers and led code reviews to ensure consistency and scalability.",
+      "Enhanced CI/CD process and code quality with ES Lint, cutting review time by 25%. "
     ],
   },
   {
@@ -149,11 +148,9 @@ const experiences: TExperience[] = [
     iconBg: "#C9CCD7",
     date: "Jan 2020 - May 2021",
     points: [
-      "Built the e-commerce website using React, Nextjs, styled component, NextAuth, GoogleAPI which improved page load speed by 120%.",
-      "Developed unit and integration tests using Jest, achieving over 90% code coverage across key components which improved code reliability, enabled faster refactoring, and reduced regression bugs",
-      "Implemented and enforced code linting using ESLint in projects, reducing code quality issues by 40% and decreasing code review time by 25%. This improved team productivity and ensured consistent coding standards across the codebase.",
-      "Worked closely with UX/UI designers to translate their designs into functional web applications",
-      "Collaborated with back-end developers to improve website functionality and integrate new features."
+      "Built and optimized an e-commerce site with React/Next.js; increased SEO traffic by 30% and reduced load time by 35%.",
+      "Integrated secure payment systems and improved test reliability via Jest (90%+ coverage).",
+      "Collaborated with designers and backend teams to deliver full product experience."
     ],
   },
 ];
@@ -187,9 +184,10 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Global Integrated Rail Solutions",
+    name: "Global Rail Data System",
+    customerName: "Hitachi A-train",
     description:
-      "Developed a data analysis system for a train control platform. The project involved receiving signal and event data from the train system, processing and analyzing it on the server, and storing the results in a structured database. Additionally, the system could send commands and event responses back to the train system in real time, enabling two-way communication and improved operational monitoring.",
+      "Built real-time signal analysis system; enhanced system response by 30%. Led team coordination and version control using Git/Azure",
     tags: [
       {
         name: "angular",
@@ -205,12 +203,13 @@ const projects: TProject[] = [
       }
     ],
     image: rail,
-    sourceCodeLink: "",
+    sourceCodeLink: "https://github.com/nguyenthile01?tab=repositories",
   },
   {
-    name: "Project Quality Management System",
+    name: "Quality Management System ",
+    customerName: "Hitachi Global",
     description:
-      "This is project quality control. The Quality Assurances will check and evaluate the project quality and then report information and records storage in systems.",
+      "Angular + Spring Boot system for QA evaluation and reporting. Led a sub-team, implemented UI/backend features, reduced support issues by 35%.",
     tags: [
       {
         name: "angular",
@@ -230,12 +229,13 @@ const projects: TProject[] = [
       },
     ],
     image: qualityproject,
-    sourceCodeLink: "",
+    sourceCodeLink: "https://github.com/nguyenthile01?tab=repositories",
   },
   {
-    name: "E-commerce website for building materials",
+    name: "Building Materials E-commerce",
+    customerName: "",
     description:
-      "The site feature product listings, order management, and secure online payment to support efficient sales and customer engagement. ",
+      "Developed SEO-optimized, SSR React app; boosted user engagement by 25%.",
     tags: [
       {
         name: "nextjs",
@@ -255,7 +255,7 @@ const projects: TProject[] = [
       },
     ],
     image: materialproject,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/nguyenthile01?tab=repositories",
   },
 ];
 

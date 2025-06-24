@@ -12,6 +12,7 @@ import { TProject } from "../../types";
 const ProjectCard: React.FC<{ index: number } & TProject> = ({
   index,
   name,
+  customerName,
   description,
   tags,
   image,
@@ -26,7 +27,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         tiltMaxAngleY={30}
         glareColor="#aaa6c3"
       >
-        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
+        <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[350px]">
           <div className="relative h-[230px] w-full">
             <img
               src={image}
@@ -48,6 +49,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
           </div>
           <div className="mt-5">
             <h3 className="text-[24px] font-bold text-white">{name}</h3>
+            <p>{customerName}</p>
             <p className="text-secondary mt-2 text-[14px]">{description}</p>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">

@@ -29,15 +29,8 @@ import threejs from "./tech/threejs.svg";
 import angular from "./tech/angular.png";
 import javaspring from "./tech/javaspring.png";
 import next from "./tech/nextjs.png";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Azure from "./tech/Azure.png";
+import AWS from "./tech/AWS.jpg";
 
 export {
   logo,
@@ -61,13 +54,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   angular,
   javaspring,
   TMA,
@@ -76,5 +62,7 @@ export {
   materialproject,
   qualityproject,
   avatar,
-  next
+  next,
+  Azure,
+  AWS,
 };
